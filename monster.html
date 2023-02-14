@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill the Monster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="game.js"></script>
+    <div>
+        <div class="title">
+            <h1 >Kill the Monster</h1>
+        </div>
+        <div class="monsterh">
+            
+            <h2>Monster Health</h2>
+            <progress min="0" max="100" value="100" id="monsterh1" ></progress>
+        
+        </div>
+        <div class="yourh">
+            <h2>Your health</h2>
+            <progress min="0" max="100" value="100" id="yourh1"></progress>
+        </div>
+        <div class="buttons">
+        <div  >
+            <input type="button" value="ATTACK" class="attack" id="attack1">
+            <input type="button" value="Special Attack" class="attack" id="special-attack">
+        </div>
+        <div >
+            <input type="button" value="Heal" class="other" id="heal">
+            <input type="button" value="Give up" class="other" id="give-up">
+            </div>
+            
+
+            
+            <div class="battle-log">
+                <h2>Battle Log</h2>
+                
+            </div>
+            <div id="message"></div>
+            <input type="button " id=" newgame" onclick="restart()">
+
+            <div id="results"></div>
+</body>
+</html>

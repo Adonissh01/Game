@@ -1,0 +1,77 @@
+
+.title{
+    text-align: center;
+    background-color: darkred;
+    padding: 1%;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.monsterh{
+    
+    
+    margin: 20px auto;
+    width: 600px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 2%;
+    box-shadow: 1px 1px grey;
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+    
+    
+}
+.yourh{
+     margin: 20px auto;
+    width: 600px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 2%;
+    box-shadow: 1px 1px gray;
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+    
+
+}
+.buttons{
+   text-align: center;
+   
+}
+
+.buttons .attack{
+
+    width: 200px;
+    height: 50px;
+    background-color: rgb(145, 2, 145);
+    color: white;
+    border-radius: 8%;
+    margin-bottom: 1%;
+    
+    margin-left: 1%;
+    border-color:rgb(145, 2, 145); 
+}
+
+   
+.buttons .other{
+   width: 200px;
+   height: 50px;
+background-color: rgb(145, 2, 145);
+color: white;
+border-radius: 8%;
+margin-left: 1%;
+border-color:rgb(145, 2, 145); 
+}
+progress{
+    
+
+    height: 30px;
+    border-color: green;
+    width: 550px;
+    
+}
