@@ -1,3 +1,4 @@
+<html>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,58 +6,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exam</title>
+    <title>Kill the Monster</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-
-
 <body>
-    <div class="heading">
-        <h1>Kill The Monster</h1>
 
-    </div>
-
-    <form class="game">
-
-        <div class="monster">
-            <p>Monster Health</p>
-
-            <progress id="monster-health" value="100" max="100"></progress>
+    <div>
+        <div class="title">
+            <h1>Kill the Monster</h1>
         </div>
-        </div>
+        <div class="monsterh">
 
-        <div class="you">
-            <p>Your Health</p>
-
-            <progress id="your-health" value="100" max="100"></progress>
-
-
+            <h2>Monster Health</h2>
+            <progress min="0" max="100" value="100" id="monsterh1"></progress>
 
         </div>
+        <div class="yourh">
+            <h2>Your health</h2>
+            <progress min="0" max="100" value="100" id="yourh1"></progress>
         </div>
-
         <div class="buttons">
             <div>
-                <button id="attack">ATTACK</button>
-                <button id="Sattack">SPECIAL ATTACK</button>
+                <input type="button" value="ATTACK" class="attack" id="attack1">
+               <button   class="attack" id="special-attack" onclick="specialAttack">Special Attack</button>
             </div>
             <div>
-                <button id="heal">HEAL</button>
-                <button id="endgame">GIVE UP</button>
+                <input type="button" value="Heal" class="other" id="heal">
+                <input type="button" value="Give up" class="other" id="give-up" >
             </div>
         </div>
 
-        <div class="battle">
-            <p>Battle Log</p>
-            <div id="message"></div>
-            <button id="newgame" onclick="restart()">Start New game</button>
-            <div id="results"></div>
+        <div class="reset">
+
         </div>
-    </form>
+
+        <div id="battle-log" style="text-align:  center;">
+            <h2>Battle Log</h2>
+            <div id="message"></div>
+            <button id="startNewGame">STart new game!</button>
+
+            <div id="results"></div>
+
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
-
 
 </html>
